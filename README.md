@@ -1,17 +1,26 @@
 # Development of a segmentation tool to measure subcutaneous implant volumes
 
-The repository contains the code and a peek to the results. 
+The repository contains the code and a peek to some of the results. 
 
-* * *
+Several techniques were tested, starting by simple algorithm such as Multi-Otsu Thresholding and Canny edge detection. A deeper analysis was made by training Conventional Neural Network model based on U-net \cite{chhor2017satellite}. A simple 2d architecture with a BCE loss function  was compared to a 2d and 3d nnU-net proposed by the Applied Computer Vision Lab (ACVL) of Helmholtz Imaging. The models were trained to do binary pixel-wise segmentation on MRI .nii files. The labels to predict are binary masks, where the pixels representing the implant are ones, and zero otherwise. The output of the models are a binary .nii file, which allows us to compute the volume of the implant. 
+
 ### General Information
 
 ### Team
-The project is conducted by Julien Adda, supervised by:
+The project is a master semester project conducted by Julien Adda, a data science student at EPFL. 
+
+The project was supervised by:
 - Professor Dimitri Van de Ville
-- Cristina Ramona Cudalbu
+- Professor Cristina Ramona Cudalbu
 - Maria Guilia Preti 
 - Gninenko Nicolas
 
+The project was in collaboration with:
+- the startup Volumina SA (https://www.linkedin.com/company/voluminamedical/?originalSubdomain=ch)
+- Center for Biomedical Imaging (CIBM) at EPFL and (https://cibm.ch)
+-  Medical Image Processing Lab (MIPLab) in Geneva (https://miplab.epfl.ch)
+
+Contact: julien.adda@epfl.ch
 
 ### Environment
 The project has been developed and test with `python3.6`.
@@ -23,6 +32,9 @@ The library for visualization is `matplotlib`.
 * * *
 ## Goal of the project
 
+60% of breast cancer patients do not reconstruct their breasts after tumor excision because available procedures are either too invasive or do not bring stable results. The startup Volumina is developing a safe and stable scaffold, Adipearl, that would enable the natural repair of 3D soft tissues in one injection. In order to develop this product, it is crucial to determine the evolution of the injected volume with respect to time. Fortunately, Adipearl is easily recognizable in MRI acquisition, as it is brighter than the other elements of the body. This non invasive technique allows biologist to retrieve the relation between time and the shape of the implant by acquiring several MRI in time. However, labelling by hand the MRI images is time consuming, which justify the need to develop an automatic and robust model capable of segmenting the MRI images. 
+
+The goal of the project is to devellop a fully automated techniques capable of segmenting an MRI images, and reconstruct the shape of the implant. 
 
 <img width="600" height="400" src="https://user-images.githubusercontent.com/73229139/172062769-683f06c4-37db-40e6-9eca-404f4544d7f7.png"> <img src="https://media.giphy.com/media/LFpslzxtwqt1yPJgJu/giphy-downsized.gif" width="350" height="350"/>
 
