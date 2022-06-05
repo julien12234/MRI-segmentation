@@ -23,7 +23,7 @@ The library for visualization is `matplotlib`.
 * * *
 ## Data
 
-<img width="450" alt="Capture d’écran 2022-06-05 à 19 12 26" src="https://user-images.githubusercontent.com/73229139/172062144-0b2a5d35-69a9-4348-bc81-73d1ec3b7150.png"> <img src="https://media.giphy.com/media/LFpslzxtwqt1yPJgJu/giphy-downsized.gif" width="250" height="250"/>
+<img width="450" height="400" alt="Capture d’écran 2022-06-05 à 19 12 26" src="https://user-images.githubusercontent.com/73229139/172062144-0b2a5d35-69a9-4348-bc81-73d1ec3b7150.png"> <img src="https://media.giphy.com/media/LFpslzxtwqt1yPJgJu/giphy-downsized.gif" height="400"/>
 
 
 ### MTOMO
