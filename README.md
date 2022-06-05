@@ -1,4 +1,4 @@
-# Development of a segmentation tool to measure subcutaneous implant volumes          <img width="50" height="50" src="https://user-images.githubusercontent.com/73229139/172063736-68f34fb0-2244-46ad-9f0d-c27c71a4f747.png">
+# Development of a segmentation tool to measure subcutaneous <img width="50" height="50" src="https://user-images.githubusercontent.com/73229139/172063736-68f34fb0-2244-46ad-9f0d-c27c71a4f747.png">  implant volumes 
 
 
 The repository contains the code and a peek to some of the results. 
