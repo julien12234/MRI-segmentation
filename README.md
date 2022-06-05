@@ -21,9 +21,14 @@ The required library are `numpy, Pytorch, sklearn, openCV`
 The library for visualization is `matplotlib`.
 
 * * *
-## Project Information
+## Data
 
-### Topic: Detecting available rooftop area for PV installation
+<img width="829" alt="Capture d’écran 2022-06-05 à 19 12 26" src="https://user-images.githubusercontent.com/73229139/172062144-0b2a5d35-69a9-4348-bc81-73d1ec3b7150.png">
+
+
+### MTOMO
+
+![semi_auto_img](https://user-images.githubusercontent.com/73229139/172062095-7b08c504-1cf5-44c0-9655-bcecbbb8a967.png)
 
 The project target is to segment in aerial images of Switzerland(Geneva) the area available for the installation of rooftop photovoltaics (PV) panels, namely the area we have on roofs after excluding chimneys, windows, existing PV installations and other so-called ‘superstructures’. The task is a pixel-wise binary-semantic segmentation problem. And we are interested in the class where pixels can be classified as ‘suitable area’ for PV installations.
 
