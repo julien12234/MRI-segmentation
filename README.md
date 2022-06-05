@@ -7,13 +7,13 @@ Several techniques were tested, starting by simple algorithm such as Multi-Otsu 
 ### General Information
 
 ### Team
-The project is a master semester project conducted by Julien Adda, a data science student at EPFL. 
+The project is a master semester project conducted by [Julien Adda](https://www.linkedin.com/in/julien-adda-071180195/), a data science student at EPFL. 
 
 The project was supervised by:
-- Professor Dimitri Van de Ville (https://people.epfl.ch/dimitri.vandeville)
-- Professor Cristina Ramona Cudalbu (https://people.epfl.ch/cristina.cudalbu)
-- Maria Guilia Preti (https://people.epfl.ch/maria.preti/?lang=en)
-- Gninenko Nicolas (https://people.epfl.ch/nicolas.gninenko)
+- Professor [Dimitri Van de Ville](https://people.epfl.ch/dimitri.vandeville)
+- Professor [Cristina Ramona Cudalbu](https://people.epfl.ch/cristina.cudalbu) 
+- [Maria Guilia Preti](https://people.epfl.ch/maria.preti/?lang=en)
+- [Gninenko Nicolas](https://people.epfl.ch/nicolas.gninenko)
 
 The project was in collaboration with:
 - the startup Volumina SA (https://www.linkedin.com/company/voluminamedical/?originalSubdomain=ch)
