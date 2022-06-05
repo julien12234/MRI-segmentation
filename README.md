@@ -16,7 +16,7 @@ The project was supervised by:
 - [Gninenko Nicolas](https://people.epfl.ch/nicolas.gninenko)
 
 The project was in collaboration with:
-- the startup Volumina SA (https://www.linkedin.com/company/voluminamedical/?originalSubdomain=ch)
+- the startup [Volumina SA](https://www.linkedin.com/company/voluminamedical/?originalSubdomain=ch)
 - Center for Biomedical Imaging (CIBM) at EPFL and (https://cibm.ch)
 -  Medical Image Processing Lab (MIPLab) in Geneva (https://miplab.epfl.ch)
 
