@@ -17,8 +17,8 @@ The project was supervised by:
 
 The project was in collaboration with:
 - the startup [Volumina SA](https://www.linkedin.com/company/voluminamedical/?originalSubdomain=ch)
-- Center for Biomedical Imaging (CIBM) at EPFL and (https://cibm.ch)
--  Medical Image Processing Lab (MIPLab) in Geneva (https://miplab.epfl.ch)
+- [Center for Biomedical Imaging](https://cibm.ch) (CIBM) at EPFL 
+- [Medical Image Processing Lab](https://miplab.epfl.ch) (MIPLab) in Geneva
 
 Contact: julien.adda@epfl.ch
 
