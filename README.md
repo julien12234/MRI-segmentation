@@ -21,10 +21,16 @@ The required library are `numpy, Pytorch, sklearn, openCV`
 The library for visualization is `matplotlib`.
 
 * * *
-## Data
+## Goal of the project
+
 
 <img width="600" height="400" src="https://user-images.githubusercontent.com/73229139/172062769-683f06c4-37db-40e6-9eca-404f4544d7f7.png"> <img src="https://media.giphy.com/media/LFpslzxtwqt1yPJgJu/giphy-downsized.gif" width="350" height="350"/>
 
+## Data 
+
+The dataset provided by Volumina SA is composed of 57 MRI T2 weighted images. They were acquired on a 14.1T MRI system at CIBM (located on EPFL's campus in Lausanne, Switzerland). The data are MRIs of the lower back of 15 mice, where Volumina's gel, Adipearl, was injected. For each mice, a MRI acquisition was made 1 day, 3 weeks 3 months and 6 months after the injections. Each MRI, is a .nii file of dimensions (46, 192, 96), with a volume of 0.0142 $mm^3$ for each voxel. The ground truth are also .nii files of the same dimensions. They contain  values of 1 or 0, indicating respectively the presence of a voxel of Adipearl or the background.  
+
+The ground truth was annotated by hand, slice per slice, by two experts biologists of the Volumina's company.
 
 ### MTOMO
 
