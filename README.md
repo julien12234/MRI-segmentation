@@ -37,8 +37,7 @@ The library for visualization is `matplotlib`.
 
 The goal of the project is to devellop a fully automated techniques capable of segmenting an MRI images, and reconstruct the shape of the implant. 
 
-
- <img src="https://user-images.githubusercontent.com/73229139/172691255-74ca5cd6-e293-4ca4-9489-2207129c3640.png" width="500" height="300"/>
+ <img src="https://user-images.githubusercontent.com/73229139/172692373-35fcad32-b26a-423c-8cfb-5803cd32dd54.png" width="500" height="300"/>
  <img src="https://media.giphy.com/media/LFpslzxtwqt1yPJgJu/giphy-downsized.gif" width="275" height="250"/>
 
 
