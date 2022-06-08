@@ -41,15 +41,18 @@ nnU-net github: https://github.com/MIC-DKFZ/nnUNet. nnU-Net is developed and mai
 
 The ground truth was annotated by hand, slice per slice, by two experts biologists of the Volumina's company.
 
-### Results : Dice
+## Results
+### Dice
 The dice coefficient on the test set are shown in the following table:
 
 <img width="1333" alt="Capture d’écran 2022-06-08 à 21 28 29" src="https://user-images.githubusercontent.com/73229139/172700696-f52122cf-5611-47b0-bab0-d5183c7e1954.png">
 ![error_per_slice](https://user-images.githubusercontent.com/73229139/172698239-51003ee3-5ff1-421f-8a9f-a1067ed52b0a.png)
 
-When plotting the dice coefficient per slice (first dimension of the 3D MRI), a U-inverted shape can be seen for each model. This indicates that the models are struggling to predict accurately at the extremities (slice 13 to 19 and slice 30 to 35) but achieve a high score in the middle (slice 19 to 30). As the implant is centered in the middle, the drop in accuracy at the extremities is because the implant is ending. The surface to detect is getting smaller, which implies a diminishing contrast between the rare implant pixels and the numerous background pixels and more atypical shapes that the model is not used to detect.
+When plotting the dice coefficient per slice (first dimension of the 3D MRI), a U-inverted shape can be seen for each model: 
 
 ![dice_per_slice](https://user-images.githubusercontent.com/73229139/172698229-98de4491-f257-4e15-b31e-9258bf2e264d.png)
+
+This indicates that the models are struggling to predict accurately at the extremities (slice 13 to 19 and slice 30 to 35) but achieve a high score in the middle (slice 19 to 30). As the implant is centered in the middle, the drop in accuracy at the extremities is because the implant is ending. The surface to detect is getting smaller, which implies a diminishing contrast between the rare implant pixels and the numerous background pixels and more atypical shapes that the model is not used to detect.
 
 The 3d nnU-net seems to be better for detecting the implant’s extremities. By working in 3d, the model can rely on the previous slices to help locate the implant at the extremities. On the other hand, as the 2d model is treating each slice independently, it cannot anticipate a decrease in volume. The following figure illustrates this particular strength of the 3d model. We can see its capacity to predict the end of the implant accurately compared to the 2d model :
 
@@ -59,7 +62,7 @@ Ground Truth             |  2d nnU-net |  3d nnU-net
 <img src="https://media.giphy.com/media/f6wc41ySjPSCASIiCB/giphy-downsized-large.gif" width="250" height="270"/>  | <img src="https://media.giphy.com/media/IYmdQbZnsRH4GUX0Sa/giphy-downsized.gif" width="250" height="270"/> | <img src="https://media.giphy.com/media/LFpslzxtwqt1yPJgJu/giphy-downsized.gif" width="250" height="270"/>
 
 
-### Results : Volume
+### Volume
 
 The predicted volume is calculated by counting the voxels labeled 1 in the prediction .nii file. It is then multiplied by the volume of a voxel. 
 
