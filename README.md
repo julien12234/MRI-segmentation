@@ -2,7 +2,7 @@
 
 Segmenting by hand an MRI composed of 850 000 voxels takes 90 minutes for a trained expert. The best model presented in this repositery can reconstruct the implant in less than 320 seconds. Its average Dice accuracy is 0.915 on the test set, which translates to an average error of 5.7% for the predicted volume. 
 
-### General Information
+The report of the project can be found in the folder document. 
 
 ### Team
 The project is a master semester project conducted by [Julien Adda](https://www.linkedin.com/in/julien-adda-071180195/), a data science student at EPFL. 
