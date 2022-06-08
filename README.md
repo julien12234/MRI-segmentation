@@ -46,7 +46,6 @@ The ground truth was annotated by hand, slice per slice, by two experts biologis
 The dice coefficient on the test set are shown in the following table:
 
 <img width="1333" alt="Capture d’écran 2022-06-08 à 21 28 29" src="https://user-images.githubusercontent.com/73229139/172700696-f52122cf-5611-47b0-bab0-d5183c7e1954.png">
-![error_per_slice](https://user-images.githubusercontent.com/73229139/172698239-51003ee3-5ff1-421f-8a9f-a1067ed52b0a.png)
 
 When plotting the dice coefficient per slice (first dimension of the 3D MRI), a U-inverted shape can be seen for each model: 
 
