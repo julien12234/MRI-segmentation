@@ -52,7 +52,6 @@ The ground truth was annotated by hand, slice per slice, by two experts biologis
 ![semi_auto_img](https://user-images.githubusercontent.com/73229139/172062095-7b08c504-1cf5-44c0-9655-bcecbbb8a967.png)
 
 
-
 ### Data
 - The input aerial images are RGB aerial images in PNG form and  each  image  has  size 250×250×3 with pixelsize 0.25×0.25 m^2. 
 - We used the provided labelling tool to manually label all the data The labelled images are a binary mask with 1 for pixel in PV area, and 0 otherwise.
@@ -64,7 +63,9 @@ The ground truth was annotated by hand, slice per slice, by two experts biologis
 
 Ground Truth             |  2d nnU-net |  3d nnU-net
 :-------------------------:|:-------------------------:|:-------------------------:
-[![Alt Text](https://media.giphy.com/media/f6wc41ySjPSCASIiCB/giphy-downsized.gif)  |  [![Alt Text](https://media.giphy.com/media/IYmdQbZnsRH4GUX0Sa/giphy-downsized.gif) |  [![Alt Text](https://media.giphy.com/media/LFpslzxtwqt1yPJgJu/giphy-downsized.gif)]
+<img src="https://media.giphy.com/media/2IBF0AoEQx9GwmttXi/giphy-downsized.gif" width="250" height="270"/>  | <img src="https://media.giphy.com/media/IYmdQbZnsRH4GUX0Sa/giphy-downsized.gif" width="250" height="270"/> | <img src="https://media.giphy.com/media/LFpslzxtwqt1yPJgJu/giphy-downsized.gif" width="250" height="270"/>
+
+
 
 
 * * *
