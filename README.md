@@ -138,8 +138,16 @@ Ground Truth             |  2d nnU-net |  3d nnU-net
     ├── pred_residencial_3.png
     └── train.py
 ```
+![error_per_slice](https://user-images.githubusercontent.com/73229139/172698239-51003ee3-5ff1-421f-8a9f-a1067ed52b0a.png)
 
 
+![dice_per_slice](https://user-images.githubusercontent.com/73229139/172698229-98de4491-f257-4e15-b31e-9258bf2e264d.png)
 
 
 https://giphy.com/gifs/LFpslzxtwqt1yPJgJu 
+
+![grouped_img](https://user-images.githubusercontent.com/73229139/172698154-2b582937-0717-4f1c-bada-d734ecbcc16b.png)
+
+
+
+
