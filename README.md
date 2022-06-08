@@ -63,7 +63,7 @@ The ground truth was annotated by hand, slice per slice, by two experts biologis
 
 Ground Truth             |  2d nnU-net |  3d nnU-net
 :-------------------------:|:-------------------------:|:-------------------------:
-<img src="https://media.giphy.com/media/2IBF0AoEQx9GwmttXi/giphy-downsized.gif" width="250" height="270"/>  | <img src="https://media.giphy.com/media/IYmdQbZnsRH4GUX0Sa/giphy-downsized.gif" width="250" height="270"/> | <img src="https://media.giphy.com/media/LFpslzxtwqt1yPJgJu/giphy-downsized.gif" width="250" height="270"/>
+<img src="https://media.giphy.com/media/f6wc41ySjPSCASIiCB/giphy-downsized.gif" width="250" height="270"/>  | <img src="https://media.giphy.com/media/IYmdQbZnsRH4GUX0Sa/giphy-downsized.gif" width="250" height="270"/> | <img src="https://media.giphy.com/media/LFpslzxtwqt1yPJgJu/giphy-downsized.gif" width="250" height="270"/>
 
 
 
