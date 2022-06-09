@@ -81,7 +81,7 @@ Your directory should be structured in the following way:
 ├──  output/                   !!!Keep this folder empty before running the script!!!
 ├──  label/                    Contains the label of the MRI in input -> always add label_ in front of the name
 │    ├── label_image1.nii.gz
-│    ├──label_image2.nii.gz
+│    ├── label_image2.nii.gz
 ├──  nnUNet/                   !!!Do not modify this folder!!!
 ```
 
