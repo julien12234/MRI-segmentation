@@ -30,6 +30,8 @@ Contact: julien.adda@epfl.ch
 
 **The goal of this project is to develop an automatic and robust model capable of segmenting the MRI images.** 
 
+
+
  <img src="https://user-images.githubusercontent.com/73229139/172693699-8a9e7b57-99d4-4148-a4aa-c5c660df9802.png" width="580"/><img src="https://media.giphy.com/media/LFpslzxtwqt1yPJgJu/giphy-downsized.gif" width="250" height="270"/>
 
 ## Data 
