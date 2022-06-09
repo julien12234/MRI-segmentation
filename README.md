@@ -67,7 +67,8 @@ Please, before running the script, make sure to:
 
 Your directory should be structured in the following way:
 ```
-├──  CIBM_prediction.py
+├──  CIBM_prediction.py        -> file to be runned, to test data located in input/ folder 
+├──  requirements.txt          -> requirements to install
 ├──  input/                    !!!Input files need to be .nii.gz of dimenion (96, 192, 46)!!!
 │    ├── image1.nii.gz
 │    ├── image2.nii.gz
