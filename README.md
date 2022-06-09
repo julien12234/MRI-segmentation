@@ -12,8 +12,9 @@ The project is a master semester project conducted by [Julien Adda](https://www.
 The project was supervised by:
 - Professor [Dimitri Van de Ville](https://people.epfl.ch/dimitri.vandeville)
 - Professor [Cristina Ramona Cudalbu](https://people.epfl.ch/cristina.cudalbu) 
-- [Maria Guilia Preti](https://people.epfl.ch/maria.preti/?lang=en)
 - [Gninenko Nicolas](https://people.epfl.ch/nicolas.gninenko)
+- [Maria Guilia Preti](https://people.epfl.ch/maria.preti/?lang=en)
+
 
 The project was in collaboration with:
 - the startup [Volumina SA](https://www.linkedin.com/company/voluminamedical/?originalSubdomain=ch)
