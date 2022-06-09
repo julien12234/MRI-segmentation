@@ -46,10 +46,10 @@ The ground truth was annotated by hand, slice per slice, by two experts biologis
 ## Run the best model
 
 ### Steps
-The pre-trained model 3d nnU-net is available and also 1 MRI and its ground truth: it is mouse XXXX and the MRI was acquired 1 day after the injection of Adipearl. A python file, `CIBM_prediction.py`, can be runned to test the model on the data located in the input/ file. 
+The pre-trained model 3d nnU-net is available and also 1 MRI and its ground truth: it is mouse 92-779-4 and the MRI was acquired 1 day after the injection of Adipearl. A python file, `CIBM_prediction.py`, can be runned to test the model on the data located in the input/ file. 
 
 Here are the steps to test the model:
-- download the pre-trained model, the data & `CIBM_prediction.py` at this [link](https://drive.google.com/drive/folders/1nwEv1DNEPEkCbO4TQbw965zjbOVL-x5k?usp=sharing). 
+- download the pre-trained model, the data & `CIBM_prediction.py` at this [link](https://drive.google.com/drive/folders/1L_ou2JzvqUIT4g4j3ZgCgyOEqLLGt7M6?usp=sharing). 
 - install the requirements: `requirements.txt`
 - respect the rules of the file `CIBM_prediction.py` (located at the beginning of the file and presented in the next section)
 - run file `CIBM_prediction.py` from terminal with command: python CIBM_prediction.py
@@ -119,6 +119,8 @@ Ideally, the average would be centered around 0. If it is negative, our model is
 * * *
 
 ## Visualization of results
+
+Ten examples of prediction on the test set by the different models. The MRI is the first image, and the concerned slice and mouse id are written at the top. The red area is the implant to be segmented. The ground truth, annotated by hand, is the last image. The Dice accuracy is shown at the top of each image. We can see the robustness of the 3d nnU-net compared to the other models.
 
 ![grouped_img](https://user-images.githubusercontent.com/73229139/172698154-2b582937-0717-4f1c-bada-d734ecbcc16b.png)
 
