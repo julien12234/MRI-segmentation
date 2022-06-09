@@ -2,7 +2,9 @@
 
 Segmenting by hand an MRI composed of 850 000 voxels takes 90 minutes for a trained expert. The best model presented in this repositery can reconstruct the implant in less than 320 seconds. Its average Dice accuracy is 0.915 on the test set, which translates to an average error of 5.7% for the predicted volume. 
 
-The report of the project can be found in the folder document. 
+### Report
+
+`documents/report.pdf`: a 8-pages report of this project
 
 ### Team
 The project is a master semester project conducted by [Julien Adda](https://www.linkedin.com/in/julien-adda-071180195/), a data science student at EPFL. 
@@ -32,7 +34,7 @@ The dataset provided by Volumina SA is composed of 57 MRI T2 weighted images. Th
 
 ## 4 different models
 Each model was trained and tested on the same data. The Dice coefficient metric was used to quantify the accuracy of prediction for each model.
-- MTOMO : multithresh Otsu method with additional morphological operations (available in the jupyter notebook semi-automatic-methods.ipynb)
+- MTOMO : multithresh Otsu method with additional morphological operations (available in the jupyter notebook `semi-automatic-methods.ipynb`)
 - 2d U-net coded from scratch (can be found in the folder 2d U-net from scratch)
 - 2d nnU-net 
 - 3d nnU-net
@@ -40,6 +42,50 @@ Each model was trained and tested on the same data. The Dice coefficient metric 
 nnU-net github: https://github.com/MIC-DKFZ/nnUNet. nnU-Net is developed and maintained by the Applied Computer Vision Lab (ACVL) of Helmholtz Imaging.
 
 The ground truth was annotated by hand, slice per slice, by two experts biologists of the Volumina's company.
+
+## Run the best model
+
+### Steps
+The pre-trained model 3d nnU-net is available and also 1 MRI and its ground truth: it is mouse XXXX and the MRI was acquired 1 day after the injection of Adipearl. A python file, `CIBM_prediction.py`, can be runned to test the model on the data located in the input/ file. 
+
+Here are the steps to test the model:
+- download the pre-trained model, the data & `CIBM_prediction.py` at this [link](https://drive.google.com/drive/folders/1nwEv1DNEPEkCbO4TQbw965zjbOVL-x5k?usp=sharing). 
+- install the requirements: `requirements.txt`
+- respect the rules of the file `CIBM_prediction.py` (located at the beginning of the file and presented in the next section)
+- run file `CIBM_prediction.py` from terminal with command: python CIBM_prediction.py
+
+### Rules and structure: `CIBM_prediction.py`
+
+This script is used to segment .nii or .nii.gz files that are located in the folder "Input/". The predictions will be located in the output folder "Output/", with the prefix "prediction_" in front of the input files
+
+It will use a 3d trained nnU-net model (https://github.com/MIC-DKFZ/nnUNet).
+
+Please, before running the script, make sure to:
+- install all the required libraries at the right version 
+- have only .nii.gz files of dimensions (96, 192, 46) in the folder_input
+- empty your folder_output 
+
+Your directory should be structured in the following way:
+```
+├──  CIBM_prediction.py
+├──  input/                    !!!Input files need to be .nii.gz of dimenion (96, 192, 46)!!!
+│    ├── image1.nii.gz
+│    ├── image2.nii.gz
+│    ├── image3.nii.gz
+├──  output/                   !!!Keep this folder empty before running the script!!!
+├──  label/                    Contains the label of the MRI in input -> always add label_ in front of the name
+│    ├── label_image1.nii.gz
+│    ├──label_image2.nii.gz
+├──  nnUNet/                   !!!Do not modify this folder!!!
+```
+
+The output folder, after prediction, will be:
+```
+├──  output/                
+│    ├── prediction_image1.nii.gz
+│    ├── prediction_image2.nii.gz
+│    ├── prediction_image3.nii.gz
+```
 
 ## Results
 ### Dice
@@ -72,8 +118,6 @@ Ideally, the average would be centered around 0. If it is negative, our model is
 * * *
 
 ## Visualization of results
-
-https://giphy.com/gifs/LFpslzxtwqt1yPJgJu 
 
 ![grouped_img](https://user-images.githubusercontent.com/73229139/172698154-2b582937-0717-4f1c-bada-d734ecbcc16b.png)
 
