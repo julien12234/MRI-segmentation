@@ -101,7 +101,8 @@ The dice coefficient on the test set are shown in the following table:
 
 When plotting the dice coefficient per slice (first dimension of the 3D MRI), a U-inverted shape can be seen for each model: 
 
-![dice_per_slice](https://user-images.githubusercontent.com/73229139/172698229-98de4491-f257-4e15-b31e-9258bf2e264d.png)
+![dice_per_slice_evo](https://user-images.githubusercontent.com/73229139/172791617-e3a0f713-35b4-44ee-8a51-b323ab9afc18.png)
+
 
 This indicates that the models struggle to predict accurately at the extremities (slice 13 to 19 and slice 30 to 35) but achieve a high score in the middle (slice 19 to 30). As the implant is centered in the middle, the drop in accuracy at the extremities is because the implant is ending. The surface to detect is getting smaller, which implies a diminishing contrast between the rare implant pixels and the numerous background pixels and more atypical shapes that the model is not used to detect.
 
