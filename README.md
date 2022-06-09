@@ -28,7 +28,7 @@ Contact: julien.adda@epfl.ch
 
 60% of breast cancer patients do not reconstruct their breasts after tumor excision because available procedures are either too invasive or do not bring stable results. The startup Volumina is developing a safe and stable scaffold, Adipearl, that would enable the natural repair of 3D soft tissues in one injection. To develop this product, it is crucial to determine the evolution of the injected volume with respect to time. Fortunately, Adipearl is easily recognizable in MRI acquisition, as it is brighter than the other elements of the body. This non-invasive technique allows biologists to retrieve the relation between time and the shape of the implant by acquiring several MRIs in time. However, labeling by hand the MRI images is time-consumi (90 minutes per MRI). 
 
-** The goal of this project is to develop an automatic and robust model capable of segmenting the MRI images. ** 
+**The goal of this project is to develop an automatic and robust model capable of segmenting the MRI images.** 
 
  <img src="https://user-images.githubusercontent.com/73229139/172693699-8a9e7b57-99d4-4148-a4aa-c5c660df9802.png" width="580"/><img src="https://media.giphy.com/media/LFpslzxtwqt1yPJgJu/giphy-downsized.gif" width="250" height="270"/>
 
