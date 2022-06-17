@@ -54,10 +54,14 @@ The ground truth was annotated by hand, slice per slice, by two expert biologist
 The pre-trained model 3d nnU-net is available, and 1 MRI and the ground truth: it is mouse 92-779-4, and the MRI was acquired one day after the injection of Adipearl. A python file, `CIBM_prediction.py`, can be run to test the model on the data located in the input/ file. 
 
 Here are the steps to test the model:
-- download the pre-trained model, the data & `CIBM_prediction.py` at this [link](https://drive.google.com/drive/folders/1L_ou2JzvqUIT4g4j3ZgCgyOEqLLGt7M6?usp=sharing). 
-- install the requirements: `requirements.txt`
-- respect the rules of the file `CIBM_prediction.py` (located at the beginning of the file and presented in the next section)
-- run file `CIBM_prediction.py` from the terminal with the command: python CIBM_prediction.py
+- Make sure to have miniconda (python=3.7): https://docs.conda.io/en/latest/miniconda.html 
+- Download the pre-trained model, the data & `CIBM_prediction.py` at this [link](https://drive.google.com/drive/folders/1L_ou2JzvqUIT4g4j3ZgCgyOEqLLGt7M6?usp=sharing). 
+- Create a python environment: `conda create -n "Name_of_python_environment" python=3.7.13 ipython*`
+- Go in the directory of the downloaded folder
+- Activate the created python environment: `conda activate Name_of_python_environment`
+- Install the requirements: `pip install -r requirements.txt`
+- Respect the rules of the file `CIBM_prediction.py` (located at the beginning of the file and presented in the next section)
+- Run file `CIBM_prediction.py` from the terminal with the command: `python CIBM_prediction.py` 
 
 ### Rules and structure: `CIBM_prediction.py`
 
