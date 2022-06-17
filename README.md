@@ -66,7 +66,7 @@ Here are the steps to test the model:
 
 ### Output
 
-If you ask to check the label/ folder and some files were found, the output will look like:
+If you ask to check the label/ folder and some files were found, the output in the terminal will look like this example where 5 files were found:
 
 <img width="1239" alt="Capture d’écran 2022-06-07 à 14 21 43" src="https://user-images.githubusercontent.com/73229139/174307167-33aa725d-3bcf-4b8a-a9f9-031a16ce2562.png">
 
