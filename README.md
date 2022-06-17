@@ -39,10 +39,10 @@ The dataset provided by Volumina SA is composed of 57 MRI T2 weighted images. Th
 
 ## 4 different models
 Each model was trained and tested on the same data. The Dice coefficient metric was used to quantify each model's prediction accuracy.
-- MTOMO : multithresh Otsu method with additional morphological operations (available in the jupyter notebook `semi-automatic-methods.ipynb`)
-- 2d U-net coded from scratch (can be found in the folder 2d U-net from scratch)
-- 2d nnU-net 
-- 3d nnU-net
+- **MTOMO:** multithresh Otsu method with additional morphological operations (available in the jupyter notebook `semi-automatic-methods.ipynb`)
+- **2d U-net:** coded from scratch (can be found in the folder 2d U-net from scratch)
+- **2d nnU-net**
+- **3d nnU-net**
 
 nnU-net Github: https://github.com/MIC-DKFZ/nnUNet. nnU-Net is developed and maintained by the Applied Computer Vision Lab (ACVL) of Helmholtz Imaging.
 
