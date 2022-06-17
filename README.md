@@ -73,6 +73,7 @@ Please, before running the script, make sure to:
 - install all the required libraries in the correct version 
 - have only .nii.gz files of dimensions (96, 192, 46) in the folder_input
 - empty your folder_output 
+- if ground truth are added in the label/ folder: add the prefix "label_" to the names of the .nii.gz file. 
 
 Your directory should be structured in the following way:
 ```
