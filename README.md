@@ -54,6 +54,8 @@ The ground truth was annotated by hand, slice per slice, by two expert biologist
 The pre-trained model 3d nnU-net is available, and 1 MRI and the ground truth: it is mouse 92-779-4. The MRI was acquired one day after the injection of Adipearl. A python file, `CIBM_prediction.py`, can be run to test the model on the data located in the input/ file. 
 
 Here are the steps to test the model:
+
+<ins>Do one time:</ins>
 - Make sure to have miniconda (python=3.7): https://docs.conda.io/en/latest/miniconda.html 
 - Download the pre-trained model, the data & `CIBM_prediction.py` at this [link.](https://drive.google.com/drive/folders/1L_ou2JzvqUIT4g4j3ZgCgyOEqLLGt7M6?usp=sharing)
 - Go in the directory of the downloaded folder and open a terminal 
@@ -65,7 +67,14 @@ Here are the steps to test the model:
   - matplotlib==3.5.1
   - torch==1.7.1
   - nnunet==1.7.0
-- Respect the rules of the file `CIBM_prediction.py` (located at the beginning of the file and presented in the next section)
+
+<ins>Do every time you want to predict a .nii.gz file:</ins>
+- Go in the directory of the downloaded folder and open a terminal 
+- Activate the created python environment: `conda activate Name_of_python_environment`
+- Respect the rules of the file `CIBM_prediction.py` (located at the beginning of the file and presented in the next section):
+  - put your files to be predicted in the `input/` folder
+  - empty your `output/` folder
+  - if needed, add your label file in the `label/` folder
 - Run file `CIBM_prediction.py` from the terminal with the command: `python CIBM_prediction.py` 
 - Answer Yes or No to the question: "Check label folder (Yes/No):"
 
