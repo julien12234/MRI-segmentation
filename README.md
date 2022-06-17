@@ -61,7 +61,7 @@ Here are the steps to test the model:
 
 ### Rules and structure: `CIBM_prediction.py`
 
-This script is used to segment .nii or .nii.gz files located in the folder "Input/". The predictions will be located in the output folder « Output/« , with the prefix "prediction_" in front of the input files.
+This script is used to segment .nii or .nii.gz files located in the folder `input/`. The predictions will be located in the output folder `output/`, with the prefix `prediction_` in front of the input files.
 
 It will use a 3d trained nnU-net model (https://github.com/MIC-DKFZ/nnUNet).
 
@@ -74,6 +74,7 @@ Your directory should be structured in the following way:
 ```
 ├──  CIBM_prediction.py        -> file to be runned, to test data located in input/ folder 
 ├──  requirements.txt          -> requirements to install
+├──  liscence     
 ├──  input/                    !!!Input files need to be .nii.gz of dimenion (96, 192, 46)!!!
 │    ├── image1.nii.gz
 │    ├── image2.nii.gz
