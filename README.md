@@ -111,7 +111,7 @@ If you ask to check the label/ folder and some files were found, the output in t
 <img width="1239" alt="Capture d’écran 2022-06-07 à 14 21 43" src="https://user-images.githubusercontent.com/73229139/174307167-33aa725d-3bcf-4b8a-a9f9-031a16ce2562.png">
 
 If you did not ask to check the label/ folder: 
-<img width="1239" alt="Capture d’écran 2022-06-17 à 15 39 55" src="https://user-images.githubusercontent.com/73229139/174309783-f47845c6-224b-499d-a3c5-27b35ebcd7b2.png">
+<img width="1239" alt="Capture d’écran 2022-06-17 à 15 42 34" src="https://user-images.githubusercontent.com/73229139/174310177-3e9f7216-6ba3-4ef3-868e-4b4081ccece5.png">
 
 ## Results
 ### Dice
