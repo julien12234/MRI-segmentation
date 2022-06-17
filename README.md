@@ -63,6 +63,16 @@ Here are the steps to test the model:
 - Respect the rules of the file `CIBM_prediction.py` (located at the beginning of the file and presented in the next section)
 - Run file `CIBM_prediction.py` from the terminal with the command: `python CIBM_prediction.py` 
 - Answer Yes or No to the question: "Check label folder (Yes/No):"
+
+### Output
+
+If you ask to check the label/ folder and some files were found, the output will look like:
+
+<img width="1239" alt="Capture d’écran 2022-06-07 à 14 21 43" src="https://user-images.githubusercontent.com/73229139/174307167-33aa725d-3bcf-4b8a-a9f9-031a16ce2562.png">
+
+If you did not ask to check the label/ folder: 
+
+
 ### Rules and structure: `CIBM_prediction.py`
 
 This script is used to segment .nii or .nii.gz files located in the folder `input/`. The predictions will be located in the output folder `output/`, with the prefix `prediction_` in front of the input files.
