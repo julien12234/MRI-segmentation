@@ -55,7 +55,7 @@ The pre-trained model 3d nnU-net is available, and 1 MRI and the ground truth: i
 
 Here are the steps to test the model:
 - Make sure to have miniconda (python=3.7): https://docs.conda.io/en/latest/miniconda.html 
-- Download the pre-trained model, the data & `CIBM_prediction.py` at this [link](https://drive.google.com/drive/folders/1L_ou2JzvqUIT4g4j3ZgCgyOEqLLGt7M6?usp=sharing). 
+- Download the pre-trained model, the data & `CIBM_prediction.py` at this [link.](https://drive.google.com/drive/folders/1L_ou2JzvqUIT4g4j3ZgCgyOEqLLGt7M6?usp=sharing)
 - Create a python environment: `conda create -n "Name_of_python_environment" python=3.7.13 ipython*`
 - Go in the directory of the downloaded folder
 - Activate the created python environment: `conda activate Name_of_python_environment`
