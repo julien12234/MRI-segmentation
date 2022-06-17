@@ -60,11 +60,11 @@ Here are the steps to test the model:
 - Create a python environment: `conda create -n "Name_of_python_environment" python=3.7.13 ipython*`
 - Activate the created python environment: `conda activate Name_of_python_environment`
 - Install the requirements: `pip install -r requirements.txt`. It will install the following libraries: 
- ` - SimpleITK
-   - colorama==0.4.4
-   - matplotlib==3.5.1
-   - torch==1.7.1
-   - nnunet==1.7.0`
+  - SimpleITK
+  - colorama==0.4.4
+  - matplotlib==3.5.1
+  - torch==1.7.1
+  - nnunet==1.7.0
 - Respect the rules of the file `CIBM_prediction.py` (located at the beginning of the file and presented in the next section)
 - Run file `CIBM_prediction.py` from the terminal with the command: `python CIBM_prediction.py` 
 - Answer Yes or No to the question: "Check label folder (Yes/No):"
