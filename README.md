@@ -151,6 +151,8 @@ The predicted volume is calculated by counting the voxels labeled 1 in the predi
 
 <img width="939" alt="Capture d’écran 2022-06-08 à 21 32 17" src="https://user-images.githubusercontent.com/73229139/172701558-6bc0f06a-6d91-4f87-a920-67abec2327a7.png">
 
+![Capture d’écran 2023-02-15 à 12 41 58](https://user-images.githubusercontent.com/73229139/219018547-fe784f2e-2517-44ed-8b8d-ecedc93fc3af.png)
+
 Ideally, the average would be centered around 0. If it is negative, our model is under-sampling its prediction. In other words, it predicts a smaller volume than the actual volume. It is the case for the two nnU-net (-7.65% and -3.85%). Regarding the absolute average, the closest to 0, the better. We can see that the 3d nnU-net is the best model. 
 
 * * *
