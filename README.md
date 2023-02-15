@@ -128,10 +128,7 @@ If you did not ask to check the `label/` folder:
 ### Dice
 The dice coefficient on the test set are shown in the following table:
 
-<img width="1333" alt="Capture d’écran 2022-06-08 à 21 28 29" src="https://user-images.githubusercontent.com/73229139/172700696-f52122cf-5611-47b0-bab0-d5183c7e1954.png">
-
 ![Capture d’écran 2023-02-15 à 12 41 58](https://user-images.githubusercontent.com/73229139/219018680-99f2a065-0f59-4eb1-83d3-53c7292d58e5.png)
-
 
 When plotting the dice coefficient per slice (first dimension of the 3D MRI), a U-inverted shape can be seen for each model: 
 
