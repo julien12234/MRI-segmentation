@@ -21,7 +21,7 @@ The project was in collaboration with:
 - [Center for Biomedical Imaging](https://cibm.ch) (CIBM) at EPFL 
 - [Medical Image Processing Lab](https://miplab.epfl.ch) (MIPLab) in Geneva
 
-Contact: julien.adda@epfl.ch
+Contact: julien.adda@gmail.com
 
 * * *
 ## Goal of the project
