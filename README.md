@@ -2,9 +2,16 @@
 
 Segmenting by hand, an MRI composed of 850 000 voxels takes 90 minutes for a trained expert. The best model presented in this repository can reconstruct the implant in less than 320 seconds. Its average Dice accuracy is 0.915 on the test set, which translates to an average error of 5.7% for the predicted volume. 
 
+### Findings 
+
+The top-performing algorithm is currently in use at the CIBM laboratory in Lausanne. The results of our research were published on August 21, 2023, in the scientific journal Frontiers in Signal Processing, with me as the primary author.
+
+Title: Automated segmentation and labeling of subcutaneous mouse implants at 14.1T
+Link: [Frontiers publication](https://doi.org/10.3389/frsip.2023.1155618)
+
 ### Report
 
-`documents/report.pdf`: an 8-pages report of this project
+`documents/report.pdf`: an 12-pages report of this project
 
 ### Team
 The project is a master semester project conducted by [Julien Adda](https://www.linkedin.com/in/julien-adda-071180195/), a data science student at EPFL. 
