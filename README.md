@@ -6,12 +6,10 @@ Segmenting by hand, an MRI composed of 850 000 voxels takes 90 minutes for a tra
 
 The top-performing algorithm is currently in use at the CIBM laboratory in Lausanne. The results of our research were published on August 21, 2023, in the scientific journal Frontiers in Signal Processing, with me as the primary author.
 
-Title: Automated segmentation and labeling of subcutaneous mouse implants at 14.1T
+Title: [Automated segmentation and labeling of subcutaneous mouse implants at 14.1T](https://doi.org/10.3389/frsip.2023.1155618)
 
-Link: [Frontiers publication](https://doi.org/10.3389/frsip.2023.1155618)
-
-![frontiers-vector-logo](https://github.com/julien12234/MRI-segmentation/assets/73229139/bb249e94-7f72-42be-b8cf-03679d717789)
-
+ <img src="[https://user-images.githubusercontent.com/73229139/172693699-8a9e7b57-99d4-4148-a4aa-c5c660df9802.png](https://github.com/julien12234/MRI-segmentation/assets/73229139/bb249e94-7f72-42be-b8cf-03679d717789)" width="580"/><img src="[https://media.giphy.com/media/LFpslzxtwqt1yPJgJu/giphy-downsized.gif](https://github.com/julien12234/MRI-segmentation/assets/73229139/bb249e94-7f72-42be-b8cf-03679d717789)" width="250" height="270"/>
+ 
 ### Report
 
 `documents/report.pdf`: an 12-pages report of this project
