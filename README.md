@@ -8,8 +8,8 @@ The top-performing algorithm is currently in use at the CIBM laboratory in Lausa
 
 Title: [Automated segmentation and labeling of subcutaneous mouse implants at 14.1T](https://doi.org/10.3389/frsip.2023.1155618)
 
- <img src="[https://user-images.githubusercontent.com/73229139/172693699-8a9e7b57-99d4-4148-a4aa-c5c660df9802.png](https://github.com/julien12234/MRI-segmentation/assets/73229139/bb249e94-7f72-42be-b8cf-03679d717789)" width="580"/><img src="[https://media.giphy.com/media/LFpslzxtwqt1yPJgJu/giphy-downsized.gif](https://github.com/julien12234/MRI-segmentation/assets/73229139/bb249e94-7f72-42be-b8cf-03679d717789)" width="250" height="270"/>
- 
+<img width="1239" alt="Capture d’écran 2022-06-1wd7 à 15 42 34" src="[https://user-images.githubusercontent.com/73229139/174310177-3e9f7216-6ba3-4ef3-868e-4b4081ccece5.png](https://github.com/julien12234/MRI-segmentation/assets/73229139/da44278d-6462-43de-ae43-9a8b1280641b)">
+
 ### Report
 
 `documents/report.pdf`: an 12-pages report of this project
